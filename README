@@ -1,0 +1,9 @@
+Network Programming README
+
+- This project was made for learning concepts common in multiplayer games e.g. serialisation, game states, jitter, latency...
+
+- SDL2 req for play (included) and CMake for building. 
+
+- Order of compile: 1. Strings, 2. Maths, 3. Engine, 4. Serialisation, 5. Replication, 6. ClientLib, 7. ServerLib, 8. Client, 9. Server, 10. NetworkGame_test
+
+- VS Debugging > Run the server > Run client (add ip address + server number in Properties) > Repeat client for number of players.
